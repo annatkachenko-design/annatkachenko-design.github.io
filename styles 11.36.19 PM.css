@@ -1,0 +1,521 @@
+
+html, body {
+  height:100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+background: white;
+}
+
+
+.navigation {
+  text-align: right;
+  position: fixed;
+  top:0;
+  right:0;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0px 1px 10px #999;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+nav a {
+  display: inline-block;
+}
+
+nav a:after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+nav a:hover:after {
+  width: 100%;
+}
+
+
+
+h1 {
+  font-size: 120px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  display: inline-block;
+  margin-top: 110px;
+  margin-bottom: -150px;
+
+}
+
+
+.anna img {
+  width: 30%;
+  margin-top: -20px;
+}
+
+.name {
+  background-color: white;
+  text-align: center;
+
+
+}
+
+
+.front {
+  height: 600px;
+  text-align: center;
+  margin: 30px;
+}
+
+.front img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.aboutPart {
+  overflow: hidden;
+  display:block;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 100px;
+
+}
+
+
+
+.aboutcontent {
+  display: block;
+}
+
+.about, .portfolio, .skills, .contact {
+  font-size: 70px;
+  border: 5px solid white;
+  background-color: #DBE4ED;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+.portfolioTitle, .aboutTitle, .skillsTitle, .contactTitle {
+  display: block;
+  border: 4px solid  #DBE4ED ;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about p, .portfolio p, .skills p, .contact p  {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding:0
+
+}
+
+
+.aboutcontentone, .aboutcontenttwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: 'Libre Franklin', sans-serif;
+  height:200px;
+}
+
+.aboutcontenttwo {
+  margin-top: 0px;
+  padding-bottom: 20px;
+
+}
+
+
+
+.onetitle, .twotitle {
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+
+.abouttextone p, .abouttexttwo p {
+  word-spacing: 8px;
+  font-size: 18px;
+}
+
+
+
+.abouttextone, .abouttexttwo  {
+  display: block;
+  width: 800px;
+  padding: 20px;
+  margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+/* finished about part */
+
+.portfolioPart {
+  overflow: hidden;
+  display:block;
+  font-family: 'Libre Franklin', sans-serif;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 100px;
+}
+
+.portfolioTitle {
+  text-align: center;
+}
+
+
+
+.portfoliocontent {
+  display: block;
+}
+
+.pone, .ptwo, .pthree {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+.textsone, .textsthree  {
+
+  width: 600px;
+  height: 400px;
+  text-align: left;
+  margin: 50px;
+  margin-top: 0px;
+
+}
+
+
+.textstwo {
+  width: 600px;
+  height: 400px;
+  text-align: right;
+  margin: 50px;
+  margin-top: 0px;
+  padding: 10px;
+
+
+}
+
+.photoone img,.phototwo img, .photothree img {
+  height: 400px;
+  width: 600px;
+}
+
+.phototwo {
+  text-align: right;
+  margin-right:0px;
+}
+
+
+
+
+.textsone p,  .textsthree p{
+padding-left: 5px;
+margin-bottom: 20px;
+font-size: 20px;
+}
+
+.textstwo  p {
+  padding-right: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+
+.divone, .divtwo, .divthree {
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.textsone ul,  .textsthree ul {
+  padding-left: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  list-style-type: circle;
+  line-height: 3px;
+
+}
+
+.textstwo  ul {
+  padding-right: 5px;
+  margin-bottom: 20px;
+  list-style-type: circle;
+  font-size: 15px;
+    line-height: 3px;
+
+}
+
+
+
+
+.textsone a, .textstwo a, .textsthree a {
+  text-decoration: none;
+  width: 110px;
+  padding: 10px;
+  font-size: 11px;
+  color: white;
+  background: black;
+  border: 2px solid black;
+  margin-left:5px;
+  margin-top: 30px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+
+
+.textstwo a  {
+  font-size: 11px;
+  color: white;
+  background: black;
+  border: 2px solid black;
+}
+
+.textsone a:hover {
+  background-color: #A4BAD1;
+  color: black;
+  border: 2px solid #A4BAD1;
+}
+
+.textstwo a:hover {
+  background-color: #A4BAD1;
+  color: black;
+  border: 2px solid #A4BAD1;
+}
+
+.textsthree a:hover {
+  background-color: #A4BAD1;
+  color: black;
+  border: 2px solid #A4BAD1;
+}
+
+
+
+
+/* finish posrtfolio part */
+
+.skillsPart {
+  text-align: center;
+  display:block;
+  background-color:#C7D9EC;
+  margin-left:45px;
+  margin-right: 45px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  margin-top: 30px;
+}
+
+.flex {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-left:45px;
+  margin-right: 45px;
+  padding-bottom: 30px;
+
+
+}
+
+.skills {
+  font-size: 50px;
+  margin: 40px;
+
+}
+
+.skills {
+  text-align: center;
+}
+
+
+
+.a, .b, .c, .d, .e, .f {
+  text-align: center;
+  margin-bottom: 20px;
+  margin:5px;
+  border: 4px solid white;
+  margin-bottom:20px;
+  height:50px;
+
+}
+
+.a div, .b div, .c div, .d div, .e div, .f div{
+  background-color: #A3BAD2;
+  border: 4px solid white;
+  display:block;
+  margin: 10px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* finish skills part */
+
+.contactPart {
+  display:block;
+  margin: 45px;
+  margin-top: 50px;
+
+
+}
+
+.contactTitle {
+  text-align: center;
+}
+
+
+
+.fillin {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.fillingtext {
+  margin-top: 10px;
+
+}
+
+.fillingtext img {
+  margin:10px;
+  height: 80%;
+
+}
+
+.fillingtext div {
+  margin: 0px;
+  padding-top: 100px;
+  font-weight: bolder;
+}
+
+input, textarea {
+  margin: 30px;
+  border:none;
+  border-bottom: 2px solid grey;
+  background-color: inherit;
+  color: black;
+  font-size: 20px;
+}
+
+button {
+  margin: 30px;
+  width: 70px;
+  height: 30px;
+  background: black;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  font-size: 11px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+
+}
+
+button:hover {
+  background-color: #A4BAD1;
+  color: black;
+}
+
+
+
+
+
+
+
+form, .fillingtext {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  width: 500px;
+  margin: 50px;
+  padding: 10px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  word-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* finish contact part */
+
+
+footer {
+  background-color: white;
+  border-top: 2px solid black;
+  height: 100px;
+  text-align: center;
+}
+
+.last {
+  display: inline-block;
+  height: 50px;
+  background-color: white;
+  width: 400px;
+  margin: 10px;
+
+
+}
+
+.last p {
+  display: inline-block;
+
+}
